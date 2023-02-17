@@ -1,0 +1,29 @@
+.wrap{
+			line-height: 0px;
+		}
+	
+		.cell{
+			border: 1px solid black;
+			width: 100px;
+			height: 100px;
+			display: table-cell;
+			background-color: tan;
+			font: bold 60px comic sans ms;
+			text-align: center;
+			color: green;
+		}
+    .stat {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+.stat table {
+    border-collapse: collapse;
+}
+
+.stat table, .stat th, .stat td {
+    border: 1px solid #000;
+    padding: 5px;
+    text-align: center;
+}
